@@ -1,0 +1,24 @@
+a{
+	text-decoration:none; color:#FFF; }
+a:hover{ color:#F90; }
+.login{width:330px;height:450px;margin-top:70px;margin-left:auto;margin-right:auto;border:0px solid #FFFFFF;background:#FFF;box-shadow:5px 3px 10px #333333;padding-top:5px;}
+.head-login{width:300px;margin-top:10px;margin-left:auto;margin-right:auto;border:0px solid #FFFFFF;margin-bottom:5px;height:30px;background:#000 no-repeat center top;color:#FFF;text-align:center;padding-top:10px;font-size:20px; text-transform:uppercase;font-family:Arial, Helvetica, sans-serif;}
+.screen-login{width:280px;margin-top:10px;margin-left:auto;margin-right:auto;padding:10px;height:200px;border:1px solid #999999;color:#fff;font-weight:bold;background:url(../img/bgform.png) repeat;	}
+.screen-login img{margin-left:auto;margin-right:auto;margin-top:10px; width:280px;float:left;opacity:0.9;}
+.screen-pesan{float:left;width:260px;padding:10px;color:#fff;font-weight:bold;font-size:16px;margin:5px;}
+.menu-login{width:310px;margin-top:10px;margin-left:auto;margin-right:auto;}
+.footer-login{width:290px;padding:10px;margin-left:auto;margin-right:auto;}
+.form-login{width:280px;padding:10px;border:1px #0099CC solid;text-align:center;opacity:0.9;color:#000000; background:#FFFFFF;}
+.tombol-login{cursor:pointer;width:147px;padding:10px;background:#333333;border:0px solid #FFFFFF;color:#fff;}
+.tombol-login:hover{background:#0099FF;}
+.tombol-reset{
+	cursor:pointer;
+	width:147px;
+	padding:10px;
+	background:#333333;
+	border:0px solid #FFFFFF;
+	color:#fff;
+}
+.tombol-reset:hover{background:#FF0000;}
+
+body{background:#CCC;}

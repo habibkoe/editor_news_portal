@@ -1,0 +1,52 @@
+RewriteEngine on
+RewriteRule ^news$ edt_beranda.php?page=news
+RewriteRule ^internasional$ edt_beranda.php?page=internasional 
+RewriteRule ^nasional$ edt_beranda.php?page=nasional
+RewriteRule ^daerah$ edt_beranda.php?page=daerah 
+RewriteRule ^jabodetabek$ edt_beranda.php?page=jabodetabek
+
+RewriteRule ^indexz$ edt_beranda.php?page=indexz 
+
+RewriteRule ^bisnis$ edt_beranda.php?page=bisnis 
+RewriteRule ^bursa-saham$ edt_beranda.php?page=bursa-saham 
+RewriteRule ^pasar-uang$ edt_beranda.php?page=pasar-uang
+RewriteRule ^industri-dan-pertambangan$ edt_beranda.php?page=industri-dan-pertambangan
+RewriteRule ^properti$ edt_beranda.php?page=properti
+
+RewriteRule ^sport$ edt_beranda.php?page=sport 
+RewriteRule ^sepak-bola$ edt_beranda.php?page=sepak-bola 
+RewriteRule ^sport-mania$ edt_beranda.php?page=sport-mania
+
+RewriteRule ^entertainment$ edt_beranda.php?page=entertainment 
+RewriteRule ^gosip-seleb$ edt_beranda.php?page=gosip-seleb 
+RewriteRule ^musik$ edt_beranda.php?page=musik
+RewriteRule ^film$ edt_beranda.php?page=film
+
+RewriteRule ^lifestyle$ edt_beranda.php?page=lifestyle
+RewriteRule ^kesehatan$ edt_beranda.php?page=kesehatan 
+RewriteRule ^iptek$ edt_beranda.php?page=iptek 
+RewriteRule ^teknologi-informasi$ edt_beranda.php?page=teknologi-informasi 
+RewriteRule ^manajemen$ edt_beranda.php?page=manajemen
+
+RewriteRule ^food$ edt_beranda.php?page=food 
+RewriteRule ^info-makan-enak$ edt_beranda.php?page=info-makan-enak
+RewriteRule ^kuliner-mak-nyos$ edt_beranda.php?page=kuliner-mak-nyos
+RewriteRule ^hangout$ edt_beranda.php?page=hang-out
+
+RewriteRule ^traveling$ edt_beranda.php?page=traveling
+RewriteRule ^tempat-favorit$ edt_beranda.php?page=tempat-favorit
+RewriteRule ^jalan-jalan$ edt_beranda.php?page=jalan-jalan
+RewriteRule ^hotel-dan-resto$ edt_beranda.php?page=hotel-dan-resto
+
+RewriteRule ^hobi$ edt_beranda.php?page=hobi
+RewriteRule ^otomotif$ edt_beranda.php?page=otomotif
+
+RewriteRule ^agribisnis$ edt_beranda.php?page=agribisnis
+RewriteRule ^hukum$ edt_beranda.php?page=hukum
+
+RewriteRule ^brnd$ edt_beranda.php?page=beranda 
+RewriteRule ^search$ edt_beranda.php?page=search
+RewriteRule ^baca-(.*)$ edt_beranda.php?page=bacaberita&baca=$1 
+RewriteRule ^foto-(.*)$ edt_beranda.php?page=bacafoto&baca=$1 
+RewriteRule ^inside-(.*)$ edt_beranda.php?page=inside&baca=$1 
+Options All -Indexes
